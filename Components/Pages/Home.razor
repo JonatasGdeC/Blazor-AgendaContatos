@@ -10,7 +10,7 @@
         <NavLink href="Cadastro" class="btn btn-primary">Cadastrar</NavLink>
     </div>
 </header>
-@if(contatos != null)
+@if(contatos.Count > 0)
 {
     <div class="row">
         @foreach(var contato in contatos)
@@ -19,9 +19,18 @@
             {
                 <div class="col flex-grow-0">
                     <div class="mt-5  p-3 border rounded-3">
-                        <div class="d-flex"><p class="fw-bold me-3">Nome: </p> <input type="type" name="dados" @bind="@contato.Nome" /> </div>
-                        <div class="d-flex"><p class="fw-bold me-3">Email: </p> <input type="type" name="dados" @bind="@contato.Email" /> </div>
-                        <div class="d-flex"><p class="fw-bold me-3">Telefone: </p> <input type="type" name="dados" @bind="@contato.Telefone" /> </div>
+                        <div class="d-flex justify-content-between mt-3 mb-3">
+                            <p class="fw-bold me-3">Nome: </p>
+                            <input class="form-control w-auto" type="type" @bind="@contato.Nome" />
+                        </div>
+                        <div class="d-flex justify-content-between mt-3 mb-3">
+                            <p class="fw-bold me-3">Email: </p>
+                            <input class="form-control w-auto" type="type" @bind="@contato.Email" /> 
+                        </div>
+                        <div class="d-flex justify-content-between mt-3 mb-3">
+                            <p class="fw-bold me-3">Telefone: </p>
+                            <input class="form-control w-auto" type="type" @bind="@contato.Telefone" /> 
+                        </div>
                         <div class="d-flex justify-content-between">
                             <button @onclick="Salvar" class="btn btn-success">Salvar</button>
                             <button @onclick="() => RemoverContato(contato)" class="btn btn-danger">Excluir</button>
@@ -32,9 +41,9 @@
             {
                 <div class="col flex-grow-0">
                     <div class="mt-5  p-3 border rounded-3">
-                        <div class="d-flex"><p class="fw-bold me-3">Nome: </p> <input type="type" name="dados" value="@contato.Nome" readonly /> </div>
-                        <div class="d-flex"><p class="fw-bold me-3">Email: </p> <input type="type" name="dados" value="@contato.Email" readonly /> </div>
-                        <div class="d-flex"><p class="fw-bold me-3">Telefone: </p> <input type="type" name="dados" value="@contato.Telefone" readonly /> </div>
+                        <div class="d-flex"><p class="fw-bold me-3">Nome: </p>@contato.Nome </div>
+                        <div class="d-flex"><p class="fw-bold me-3">Email: </p>@contato.Email</div>
+                        <div class="d-flex"><p class="fw-bold me-3">Telefone: </p>@contato.Telefone</div>
                         <div class="d-flex justify-content-between">
                             <button @onclick="Editar" class="btn btn-success">Editar</button>
                             <button @onclick="() => RemoverContato(contato)" class="btn btn-danger">Excluir</button>
@@ -47,7 +56,7 @@
 }
 else
 {
-    <h2>Nenhum contato cadastrado...</h2>
+    <h2 class="w-100 d-flex justify-content-center mt-5">Nenhum contato cadastrado...</h2>
 }
 
 @code {

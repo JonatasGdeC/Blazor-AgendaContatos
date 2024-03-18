@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48EFDFE4-7239-4DD2-A020-A507B93E23AE}|Agenda.csproj|c:\\users\\jonat\\projetos\\blazor\\blazor-agendacontatos\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFDFE4-7239-4DD2-A020-A507B93E23AE}|Agenda.csproj|solutionrelative:contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFDFE4-7239-4DD2-A020-A507B93E23AE}|Agenda.csproj|c:\\users\\jonat\\projetos\\blazor\\blazor-agendacontatos\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48EFDFE4-7239-4DD2-A020-A507B93E23AE}|Agenda.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48EFDFE4-7239-4DD2-A020-A507B93E23AE}|Agenda.csproj|c:\\users\\jonat\\projetos\\blazor\\blazor-agendacontatos\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{48EFDFE4-7239-4DD2-A020-A507B93E23AE}|Agenda.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFDFE4-7239-4DD2-A020-A507B93E23AE}|Agenda.csproj|c:\\users\\jonat\\projetos\\blazor\\blazor-agendacontatos\\components\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48EFDFE4-7239-4DD2-A020-A507B93E23AE}|Agenda.csproj|solutionrelative:components\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +34,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T12:42:36.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Contato.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\Contato.cs",
+              "RelativeDocumentMoniker": "Contato.cs",
+              "ToolTip": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\Contato.cs",
+              "RelativeToolTip": "Contato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T11:58:54.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cadastro.razor",
+              "DocumentMoniker": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\Components\\Pages\\Cadastro.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Cadastro.razor",
+              "ToolTip": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\Components\\Pages\\Cadastro.razor",
+              "RelativeToolTip": "Components\\Pages\\Cadastro.razor",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T11:57:37.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAB4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-18T11:15:42.865Z",
               "EditorCaption": ""
