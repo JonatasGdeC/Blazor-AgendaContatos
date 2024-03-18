@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Agenda.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Agenda.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Agenda.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Agenda.props",
+      "PackagePath": "build\\Agenda.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Agenda.props",
+      "PackagePath": "buildMultiTargeting\\Agenda.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Agenda.props",
+      "PackagePath": "buildTransitive\\Agenda.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
