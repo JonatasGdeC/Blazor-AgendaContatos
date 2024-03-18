@@ -17,8 +17,8 @@
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\iconAgenda.png",
+      "PackagePath": "staticwebassets\\iconAgenda.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Agenda.Microsoft.AspNetCore.StaticWebAssets.props",

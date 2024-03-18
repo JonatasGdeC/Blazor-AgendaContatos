@@ -10,47 +10,45 @@
         <NavLink href="Cadastro" class="btn btn-primary">Cadastrar</NavLink>
     </div>
 </header>
-@if(contatos.Count > 0)
+
+@if (contatos.Count > 0)
 {
     <div class="row">
-        @foreach(var contato in contatos)
+        @foreach (var contato in contatos)
         {
-            if (IsEditing)
-            {
-                <div class="col flex-grow-0">
-                    <div class="mt-5  p-3 border rounded-3">
+            <div class="col flex-grow-0">
+                <div class="mt-5 p-3 border rounded-3">
+                    @if (IsEditing && contato.Nome == contatoEmEdicao?.Nome)
+                    {
                         <div class="d-flex justify-content-between mt-3 mb-3">
                             <p class="fw-bold me-3">Nome: </p>
-                            <input class="form-control w-auto" type="type" @bind="@contato.Nome" />
+                            <input class="form-control w-auto" type="text" @bind="@contatoEmEdicao.Nome" />
                         </div>
                         <div class="d-flex justify-content-between mt-3 mb-3">
                             <p class="fw-bold me-3">Email: </p>
-                            <input class="form-control w-auto" type="type" @bind="@contato.Email" /> 
+                            <input class="form-control w-auto" type="text" @bind="@contatoEmEdicao.Email" />
                         </div>
                         <div class="d-flex justify-content-between mt-3 mb-3">
                             <p class="fw-bold me-3">Telefone: </p>
-                            <input class="form-control w-auto" type="type" @bind="@contato.Telefone" /> 
+                            <input class="form-control w-auto" type="text" @bind="@contatoEmEdicao.Telefone" />
                         </div>
                         <div class="d-flex justify-content-between">
                             <button @onclick="Salvar" class="btn btn-success">Salvar</button>
-                            <button @onclick="() => RemoverContato(contato)" class="btn btn-danger">Excluir</button>
+                            <button @onclick="CancelarEdicao" class="btn btn-secondary">Cancelar</button>
                         </div>
-                    </div>
-                </div>
-            } else
-            {
-                <div class="col flex-grow-0">
-                    <div class="mt-5  p-3 border rounded-3">
+                    }
+                    else
+                    {
                         <div class="d-flex"><p class="fw-bold me-3">Nome: </p>@contato.Nome </div>
                         <div class="d-flex"><p class="fw-bold me-3">Email: </p>@contato.Email</div>
                         <div class="d-flex"><p class="fw-bold me-3">Telefone: </p>@contato.Telefone</div>
                         <div class="d-flex justify-content-between">
-                            <button @onclick="Editar" class="btn btn-success">Editar</button>
+                            <button @onclick="() => Editar(contato)" class="btn btn-success">Editar</button>
                             <button @onclick="() => RemoverContato(contato)" class="btn btn-danger">Excluir</button>
                         </div>
-                    </div>
+                    }
                 </div>
-            }
+            </div>
         }
     </div>
 }
@@ -62,18 +60,25 @@ else
 @code {
     List<Contato> contatos = ContatosManager.Contatos;
     private bool IsEditing { get; set; } = false;
+    private Contato? contatoEmEdicao;
 
     private void RemoverContato(Contato contato)
     {
         contatos.Remove(contato);
     }
 
-    private void Editar()
+    private void Editar(Contato contato)
     {
         IsEditing = true;
+        contatoEmEdicao = contato;
     }
 
     private void Salvar()
+    {
+        IsEditing = false;
+    }
+
+    private void CancelarEdicao()
     {
         IsEditing = false;
     }
