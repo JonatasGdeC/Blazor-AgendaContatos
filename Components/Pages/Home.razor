@@ -34,7 +34,7 @@
                         </div>
                         <div class="d-flex justify-content-between">
                             <button @onclick="Salvar" class="btn btn-success">Salvar</button>
-                            <button @onclick="CancelarEdicao" class="btn btn-secondary">Cancelar</button>
+                            <button @onclick="() => RemoverContato(contato)" class="btn btn-danger">Excluir</button>
                         </div>
                     }
                     else
@@ -74,11 +74,6 @@ else
     }
 
     private void Salvar()
-    {
-        IsEditing = false;
-    }
-
-    private void CancelarEdicao()
     {
         IsEditing = false;
     }
