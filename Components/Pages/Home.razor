@@ -15,17 +15,33 @@
     <div class="row">
         @foreach(var contato in contatos)
         {
-            <div class="col flex-grow-0">
-                <div class="mt-5  p-3 border rounded-3">
-                    <div class="d-flex"><p class="fw-bold me-3">Nome: </p> @contato.Nome</div>
-                    <div class="d-flex"><p class="fw-bold me-3">Email: </p> @contato.Email</div>
-                    <div class="d-flex"><p class="fw-bold me-3">Telefone: </p> @contato.Telefone</div>
-                    <div class="d-flex justify-content-between">
-                        <button class="btn btn-success">Editar</button>
-                        <button @onclick="() => RemoverContato(contato)" class="btn btn-danger">Excluir</button>
+            if (IsEditing)
+            {
+                <div class="col flex-grow-0">
+                    <div class="mt-5  p-3 border rounded-3">
+                        <div class="d-flex"><p class="fw-bold me-3">Nome: </p> <input type="type" name="dados" @bind="@contato.Nome" /> </div>
+                        <div class="d-flex"><p class="fw-bold me-3">Email: </p> <input type="type" name="dados" @bind="@contato.Email" /> </div>
+                        <div class="d-flex"><p class="fw-bold me-3">Telefone: </p> <input type="type" name="dados" @bind="@contato.Telefone" /> </div>
+                        <div class="d-flex justify-content-between">
+                            <button @onclick="Salvar" class="btn btn-success">Salvar</button>
+                            <button @onclick="() => RemoverContato(contato)" class="btn btn-danger">Excluir</button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            } else
+            {
+                <div class="col flex-grow-0">
+                    <div class="mt-5  p-3 border rounded-3">
+                        <div class="d-flex"><p class="fw-bold me-3">Nome: </p> <input type="type" name="dados" value="@contato.Nome" readonly /> </div>
+                        <div class="d-flex"><p class="fw-bold me-3">Email: </p> <input type="type" name="dados" value="@contato.Email" readonly /> </div>
+                        <div class="d-flex"><p class="fw-bold me-3">Telefone: </p> <input type="type" name="dados" value="@contato.Telefone" readonly /> </div>
+                        <div class="d-flex justify-content-between">
+                            <button @onclick="Editar" class="btn btn-success">Editar</button>
+                            <button @onclick="() => RemoverContato(contato)" class="btn btn-danger">Excluir</button>
+                        </div>
+                    </div>
+                </div>
+            }
         }
     </div>
 }
@@ -36,9 +52,20 @@ else
 
 @code {
     List<Contato> contatos = ContatosManager.Contatos;
+    private bool IsEditing { get; set; } = false;
 
     private void RemoverContato(Contato contato)
     {
         contatos.Remove(contato);
+    }
+
+    private void Editar()
+    {
+        IsEditing = true;
+    }
+
+    private void Salvar()
+    {
+        IsEditing = false;
     }
 }

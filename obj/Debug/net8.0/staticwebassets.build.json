@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TM06e+XpzLMeV1BgqNe7xOc5KloXkXA/h7PBNvrnvAo=",
+  "Hash": "nqBfTPEsuxWiyZgGZzK9VDQ5L2qN18bDIoj1q/cS5xQ=",
   "Source": "Agenda",
   "BasePath": "_content/Agenda",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Agenda\\wwwroot",
       "Source": "Agenda",
-      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\",
       "BasePath": "_content/Agenda",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Agenda.styles.css",
+      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Agenda.styles.css",
       "SourceId": "Agenda",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Agenda",
       "RelativePath": "Agenda.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Agenda.styles.css"
+      "OriginalItemSpec": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Agenda.styles.css"
     },
     {
-      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Agenda.bundle.scp.css",
+      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Agenda.bundle.scp.css",
       "SourceId": "Agenda",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Agenda",
       "RelativePath": "Agenda.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Agenda.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Agenda.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\app.css",
       "SourceId": "Agenda",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\",
       "BasePath": "_content/Agenda",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Agenda",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\",
       "BasePath": "_content/Agenda",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Agenda",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\",
       "BasePath": "_content/Agenda",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\favicon.png",
       "SourceId": "Agenda",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Agenda\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jonat\\projetos\\blazor\\Blazor-AgendaContatos\\wwwroot\\",
       "BasePath": "_content/Agenda",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
